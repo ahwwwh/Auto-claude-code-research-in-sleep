@@ -2,6 +2,11 @@
 
 [中文版 README](README_CN.md) | English
 
+<table><tr>
+<td><img src="hero_idea.svg" alt="Idea Discovery" width="425"/></td>
+<td><img src="hero_implement.svg" alt="Implement & Deploy" width="425"/></td>
+</tr></table>
+
 ![Hero](hero_interaction.svg)
 
 ![Score Progression](auto_review_score_curve.png)
