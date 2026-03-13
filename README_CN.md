@@ -84,7 +84,7 @@ claude
 
 ```
 /research-lit → /idea-creator → /novelty-check → 实现 → /run-experiment → /auto-review-loop → /paper-plan → /paper-figure → /paper-write → /auto-paper-improvement-loop → 投稿
-  (调研文献)      (找idea)       (查新验证)     (写代码)   (部署跑实验)     (自动改到能投)      (大纲)        (作图)        (LaTeX+PDF)       (自动润色 ×2)       (搞定!)
+  (调研文献)      (找idea)       (查新验证)     (写代码)   (部署跑实验)     (自动改到能投)      (大纲)        (作图)        (LaTeX+PDF)     (审稿×2 + 格式检查)     (搞定!)
   ├──── 工作流 1：找 Idea ────┤                 ├──── 工作流 2：自动循环 ────┤   ├───────────────── 工作流 3：论文写作 ─────────────────────┤
 ```
 
@@ -178,6 +178,7 @@ NARRATIVE_REPORT.md ──► /paper-plan ──► /paper-figure ──► /pap
 3. /paper-figure — 生成对比表、训练曲线等图表
 4. /paper-write — 逐 section 生成 LaTeX（含 bib 清理、de-AI 打磨）
 5. /paper-compile — 编译 PDF、修复错误、页数验证
+6. /auto-paper-improvement-loop — 内容审稿 ×2 + 格式合规检查
 ```
 
 **核心特性：**

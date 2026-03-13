@@ -84,7 +84,7 @@ These skills compose into a full research lifecycle. The three workflows can be 
 
 ```
 /research-lit → /idea-creator → /novelty-check → implement → /run-experiment → /auto-review-loop → /paper-plan → /paper-figure → /paper-write → /auto-paper-improvement-loop → submit
-  (survey)      (brainstorm)    (verify novel)    (code)      (deploy & run)    (review & fix)      (outline)     (plots)        (LaTeX+PDF)        (polish ×2)          (done!)
+  (survey)      (brainstorm)    (verify novel)    (code)      (deploy & run)    (review & fix)      (outline)     (plots)        (LaTeX+PDF)     (review ×2 + format)     (done!)
   ├──── Workflow 1: Idea Discovery ────┤              ├──── Workflow 2: Auto Loop ────┤   ├──────────────── Workflow 3: Paper Writing ──────────────────┤
 ```
 
@@ -227,6 +227,7 @@ The output is a ranked `IDEA_REPORT.md` with hypotheses, pilot results, reviewer
 │   3. /paper-figure (comparison tables, training curves, etc.) │
 │   4. /paper-write (section-by-section LaTeX generation)       │
 │   5. /paper-compile (build PDF, fix errors, page check)       │
+│   6. /auto-paper-improvement-loop (review ×2 + format check)  │
 └─────────────────────────────────────────────────────────────┘
 ```
 
