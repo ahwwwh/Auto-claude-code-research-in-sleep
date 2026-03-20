@@ -160,6 +160,8 @@ Real projects where the ARIS pipeline was used end-to-end. **If you've used ARIS
 |-------|:------:|-------|----------|-------|
 | CS Paper | **8/10** — "Top 50% of accepted papers, clear accept" | CS Conference | [@DefanXue](https://github.com/DefanXue) & [@Monglitay](https://github.com/Monglitay) | Full ARIS pipeline: idea → experiments → auto-review → paper writing. Reviewer: "empirical findings are stark, well-supported, and expose a fundamental flaw" |
 
+<img src="assets/community_showcase_8_10.png" width="700" alt="8/10 — Top 50% of accepted papers, clear accept" />
+
 > 🎉 *This is the first community-reported paper built entirely with ARIS. Know more? Let us know!*
 
 ## 🧩 Awesome Community Skills & Extensions
